@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Risk Classifier</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f3f3f3;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .result {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Loan Default Prediction</h2>
+        <form method="POST" action="/predict">
+            <label>Age</label>
+            <input type="number" name="age" required>
+            <label>Experience</label>
+            <input type="number" name="experience" required>
+            <label>Income (in thousands)</label>
+            <input type="number" name="income" required>
+            <label>ZIP Code</label>
+            <input type="number" name="zip_code" required>
+            <label>Family Size (1-4)</label>
+            <select name="family">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label>CCAvg (Avg Credit Card Spend)</label>
+            <input type="number" step="0.01" name="ccavg" required>
+            <label>Education Level</label>
+            <select name="education">
+                <option value="1">Undergrad</option>
+                <option value="2">Graduate</option>
+                <option value="3">Advanced/Professional</option>
+            </select>
+            <label>Mortgage (in thousands)</label>
+            <input type="number" name="mortgage" required>
+            <label>Securities Account</label>
+            <select name="securities">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+            <label>CD Account</label>
+            <select name="cd_account">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+            <label>Online Banking</label>
+            <select name="online">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+            <label>Credit Card</label>
+            <select name="creditcard">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+            <button type="submit">Predict</button>
+        </form>
+
+        <!-- Form for batch prediction -->
+        <div class="link">
+            <a href="/predict_batch">Batch Prediction</a>
+        {% if prediction is not none %}
+        <div class="result">
+            Prediction: {{ prediction }} <br>
+            Probability: {{ probability }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
