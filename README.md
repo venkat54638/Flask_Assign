@@ -8,7 +8,7 @@ This project aims to predict whether a customer will accept a bank loan based on
 
 ---
 
-### ## Features
+###  Features
 
 1. **Data Ingestion**: Loads data from Excel files into DataFrame objects.
 2. **Preprocessing**: Handles missing values, encodes categorical variables, scales numerical features.
@@ -18,7 +18,7 @@ This project aims to predict whether a customer will accept a bank loan based on
 
 ---
 
-### ## Prerequisites
+###  Prerequisites
 
 To work with this project, you'll need the following tools and libraries installed:
 
@@ -33,7 +33,7 @@ You also need the `Bank_Personal_Loan_Modelling.xlsx` and `CRISP_ML(Q).xlsx` dat
 
 ---
 
-### ## Installation
+###  Installation
 
 1. Clone the repository:
 
@@ -59,7 +59,7 @@ You also need the `Bank_Personal_Loan_Modelling.xlsx` and `CRISP_ML(Q).xlsx` dat
 
 ---
 
-### ## Usage Examples
+###  Usage Examples
 
 #### **Example 1: Training the Model**
 
@@ -119,7 +119,7 @@ Replace `{...}` with the JSON-formatted input fields.
 
 ---
 
-### ## API Documentation
+###  API Documentation
 
 The API exposes two endpoints:
 
@@ -133,7 +133,7 @@ Endpoints may vary depending on implementation specifics.
 
 ---
 
-### ## Contributing
+###  Contributing
 
 Contributions are welcome! To get started:
 
@@ -144,7 +144,7 @@ Contributions are welcome! To get started:
 
 ---
 
-### ## License
+###  License
 
 The project is licensed under the MIT License. See `LICENSE` for full details.
 
