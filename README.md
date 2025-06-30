@@ -144,12 +144,7 @@ Contributions are welcome! To get started:
 
 ---
 
-###  License
 
-The project is licensed under the MIT License. See `LICENSE` for full details.
-
----
-
-### ## Conclusion
+### Conclusion
 
 This solution provides a robust framework for loan prediction, combining data processing, machine learning, and API-based deployment. It’s designed to handle dynamic changes efficiently while maintaining scalability and performance.
