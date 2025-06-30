@@ -1,4 +1,4 @@
-###  Bank Personal Loan Modelling
+###  Predicts probability of a customer defaulting on a loan
 
 ---
 
