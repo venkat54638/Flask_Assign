@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/158488748700249476/104e824fe1974574be82cc8acba449b7/artifacts
+end_time: 1751369785384
+entry_point_name: ''
+experiment_id: '158488748700249476'
+lifecycle_stage: active
+run_id: 104e824fe1974574be82cc8acba449b7
+run_name: Final Model Training
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751369773718
+status: 3
+tags: []
+user_id: Minfy

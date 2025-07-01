@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/692991330319726161/models/m-ffc01c7862cb49f7b861d8181f56df14/artifacts
+creation_timestamp: 1751362532962
+experiment_id: '692991330319726161'
+last_updated_timestamp: 1751362547464
+model_id: m-ffc01c7862cb49f7b861d8181f56df14
+model_type: null
+name: model
+source_run_id: bd8f2361241b42f39a477a84b10082ae
+status: 2
+status_message: null

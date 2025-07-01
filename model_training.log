@@ -1,0 +1,202 @@
+2025-07-01 16:14:37,254 [INFO] Connected to MLflow tracking server at http://localhost:5000
+2025-07-01 16:14:37,676 [INFO] Training Logistic Regression with GridSearchCV...
+2025-07-01 16:14:52,864 [INFO] Best Params for Logistic Regression: {'C': 10}
+2025-07-01 16:14:52,866 [INFO] Accuracy: 0.8920, Precision: 0.4924, Recall: 0.9238, F1: 0.6424
+2025-07-01 16:14:52,867 [INFO] Classification Report:
+{
+    "0": {
+        "precision": 0.9900373599003736,
+        "recall": 0.888268156424581,
+        "f1-score": 0.9363957597173145,
+        "support": 895.0
+    },
+    "1": {
+        "precision": 0.49238578680203043,
+        "recall": 0.9238095238095239,
+        "f1-score": 0.6423841059602649,
+        "support": 105.0
+    },
+    "accuracy": 0.892,
+    "macro avg": {
+        "precision": 0.741211573351202,
+        "recall": 0.9060388401170525,
+        "f1-score": 0.7893899328387897,
+        "support": 1000.0
+    },
+    "weighted avg": {
+        "precision": 0.9377839447250474,
+        "recall": 0.892,
+        "f1-score": 0.9055245360728242,
+        "support": 1000.0
+    }
+}
+2025-07-01 16:14:53,092 [INFO] Training Decision Tree with GridSearchCV...
+2025-07-01 16:15:01,008 [INFO] Best Params for Decision Tree: {'max_depth': 10, 'min_samples_split': 2}
+2025-07-01 16:15:01,009 [INFO] Accuracy: 0.9800, Precision: 0.9126, Recall: 0.8952, F1: 0.9038
+2025-07-01 16:15:01,010 [INFO] Classification Report:
+{
+    "0": {
+        "precision": 0.987736900780379,
+        "recall": 0.9899441340782122,
+        "f1-score": 0.9888392857142857,
+        "support": 895.0
+    },
+    "1": {
+        "precision": 0.912621359223301,
+        "recall": 0.8952380952380953,
+        "f1-score": 0.9038461538461539,
+        "support": 105.0
+    },
+    "accuracy": 0.98,
+    "macro avg": {
+        "precision": 0.9501791300018401,
+        "recall": 0.9425911146581538,
+        "f1-score": 0.9463427197802198,
+        "support": 1000.0
+    },
+    "weighted avg": {
+        "precision": 0.9798497689168858,
+        "recall": 0.98,
+        "f1-score": 0.9799150068681318,
+        "support": 1000.0
+    }
+}
+2025-07-01 16:15:01,063 [INFO] Registering the best model as 'Loan_Default_Best_Model'...
+2025-07-01 16:15:01,364 [INFO] Model registered with version: 3
+2025-07-01 16:17:42,147 [INFO] Connected to MLflow tracking server at http://localhost:5000
+2025-07-01 16:17:42,437 [INFO] Training Logistic Regression with GridSearchCV...
+2025-07-01 16:17:58,774 [INFO] Best Params for Logistic Regression: {'C': 10}
+2025-07-01 16:17:58,785 [INFO] Accuracy: 0.8920, Precision: 0.4924, Recall: 0.9238, F1: 0.6424
+2025-07-01 16:17:58,794 [INFO] Classification Report:
+{
+    "0": {
+        "precision": 0.9900373599003736,
+        "recall": 0.888268156424581,
+        "f1-score": 0.9363957597173145,
+        "support": 895.0
+    },
+    "1": {
+        "precision": 0.49238578680203043,
+        "recall": 0.9238095238095239,
+        "f1-score": 0.6423841059602649,
+        "support": 105.0
+    },
+    "accuracy": 0.892,
+    "macro avg": {
+        "precision": 0.741211573351202,
+        "recall": 0.9060388401170525,
+        "f1-score": 0.7893899328387897,
+        "support": 1000.0
+    },
+    "weighted avg": {
+        "precision": 0.9377839447250474,
+        "recall": 0.892,
+        "f1-score": 0.9055245360728242,
+        "support": 1000.0
+    }
+}
+2025-07-01 16:17:58,799 [INFO] Run ID: 48ff53088db44fc1b08b33caf23423ce, Model URI: runs:/48ff53088db44fc1b08b33caf23423ce/model_logistic_regression
+2025-07-01 16:17:58,977 [INFO] Training Decision Tree with GridSearchCV...
+2025-07-01 16:18:07,196 [INFO] Best Params for Decision Tree: {'max_depth': 10, 'min_samples_split': 2}
+2025-07-01 16:18:07,197 [INFO] Accuracy: 0.9800, Precision: 0.9126, Recall: 0.8952, F1: 0.9038
+2025-07-01 16:18:07,197 [INFO] Classification Report:
+{
+    "0": {
+        "precision": 0.987736900780379,
+        "recall": 0.9899441340782122,
+        "f1-score": 0.9888392857142857,
+        "support": 895.0
+    },
+    "1": {
+        "precision": 0.912621359223301,
+        "recall": 0.8952380952380953,
+        "f1-score": 0.9038461538461539,
+        "support": 105.0
+    },
+    "accuracy": 0.98,
+    "macro avg": {
+        "precision": 0.9501791300018401,
+        "recall": 0.9425911146581538,
+        "f1-score": 0.9463427197802198,
+        "support": 1000.0
+    },
+    "weighted avg": {
+        "precision": 0.9798497689168858,
+        "recall": 0.98,
+        "f1-score": 0.9799150068681318,
+        "support": 1000.0
+    }
+}
+2025-07-01 16:18:07,198 [INFO] Run ID: 7b9ba0727ec140c9a3f7d416d499790e, Model URI: runs:/7b9ba0727ec140c9a3f7d416d499790e/model_decision_tree
+2025-07-01 16:18:07,347 [INFO] Registering the best model as 'Loan_Default_Best_Model'...
+2025-07-01 16:18:08,064 [INFO] Model registered with version: 4
+2025-07-01 16:18:08,506 [INFO] Model version 4 tagged and aliased as production
+2025-07-01 16:26:20,718 [INFO] Connected to MLflow tracking server at http://localhost:5000
+2025-07-01 16:26:21,004 [INFO] Training Logistic Regression with GridSearchCV...
+2025-07-01 16:26:38,130 [INFO] Best Params for Logistic Regression: {'C': 10}
+2025-07-01 16:26:38,131 [INFO] Accuracy: 0.8920, Precision: 0.4924, Recall: 0.9238, F1: 0.6424
+2025-07-01 16:26:38,131 [INFO] Classification Report:
+{
+    "0": {
+        "precision": 0.9900373599003736,
+        "recall": 0.888268156424581,
+        "f1-score": 0.9363957597173145,
+        "support": 895.0
+    },
+    "1": {
+        "precision": 0.49238578680203043,
+        "recall": 0.9238095238095239,
+        "f1-score": 0.6423841059602649,
+        "support": 105.0
+    },
+    "accuracy": 0.892,
+    "macro avg": {
+        "precision": 0.741211573351202,
+        "recall": 0.9060388401170525,
+        "f1-score": 0.7893899328387897,
+        "support": 1000.0
+    },
+    "weighted avg": {
+        "precision": 0.9377839447250474,
+        "recall": 0.892,
+        "f1-score": 0.9055245360728242,
+        "support": 1000.0
+    }
+}
+2025-07-01 16:26:38,132 [INFO] Run ID: 0bef30da9a32448bbffd6b862a8ddc8d, Model URI: runs:/0bef30da9a32448bbffd6b862a8ddc8d/model_logistic_regression
+2025-07-01 16:26:38,339 [INFO] Training Decision Tree with GridSearchCV...
+2025-07-01 16:26:46,298 [INFO] Best Params for Decision Tree: {'max_depth': 10, 'min_samples_split': 2}
+2025-07-01 16:26:46,299 [INFO] Accuracy: 0.9800, Precision: 0.9126, Recall: 0.8952, F1: 0.9038
+2025-07-01 16:26:46,299 [INFO] Classification Report:
+{
+    "0": {
+        "precision": 0.987736900780379,
+        "recall": 0.9899441340782122,
+        "f1-score": 0.9888392857142857,
+        "support": 895.0
+    },
+    "1": {
+        "precision": 0.912621359223301,
+        "recall": 0.8952380952380953,
+        "f1-score": 0.9038461538461539,
+        "support": 105.0
+    },
+    "accuracy": 0.98,
+    "macro avg": {
+        "precision": 0.9501791300018401,
+        "recall": 0.9425911146581538,
+        "f1-score": 0.9463427197802198,
+        "support": 1000.0
+    },
+    "weighted avg": {
+        "precision": 0.9798497689168858,
+        "recall": 0.98,
+        "f1-score": 0.9799150068681318,
+        "support": 1000.0
+    }
+}
+2025-07-01 16:26:46,300 [INFO] Run ID: dc257e97980d4cc4b38b752e2b7f2545, Model URI: runs:/dc257e97980d4cc4b38b752e2b7f2545/model_decision_tree
+2025-07-01 16:26:46,345 [INFO] Registering the best model as 'Loan_Default_Best_Model'...
+2025-07-01 16:26:46,841 [INFO] Model registered with version: 5
+2025-07-01 16:26:47,263 [INFO] Model version 5 tagged with 'status: production', 'production_ready: true', and aliased as 'production'
+2025-07-01 16:26:47,263 [INFO] Verify in MLflow UI at http://localhost:5000 under model 'Loan_Default_Best_Model', version 5

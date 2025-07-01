@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/158488748700249476/models/m-d29e98bae5434a448f79d3f54cda375f/artifacts
+creation_timestamp: 1751366684524
+experiment_id: '158488748700249476'
+last_updated_timestamp: 1751366692688
+model_id: m-d29e98bae5434a448f79d3f54cda375f
+model_type: ''
+name: model_logistic_regression
+source_run_id: 6682ed8509a64f818cc255c0d25f89a7
+status: 2
+status_message: null
